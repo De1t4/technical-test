@@ -1,0 +1,23 @@
+.primary {
+  @apply border-2  h-12 font-semibold rounded-lg bg-blue-600 text-gray-200;
+}
+
+.input{
+  @apply rounded-md h-10 px-4 border-2 border-gray-400
+}
+
+.title{
+  @apply bg-blue-600 p-2 rounded-md cursor-pointer font-medium uppercase hover:scale-105 transition-all 
+}
+
+.nav{
+  @apply  flex sticky top-0  justify-between px-40 max-md:px-10 items-center py-4 bg-blue-700 text-blue-100
+}
+
+.interests{
+  @apply    px-3 py-2  flex items-center gap-2 hover:scale-105 transition-all cursor-pointer bg-blue-200 rounded-lg
+}
+
+.textarea{
+  @apply rounded-md  min-h-28  p-4 border-2 border-gray-400 max-h-60
+}
